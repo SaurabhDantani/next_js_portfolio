@@ -5,7 +5,8 @@ import { TypewriterEffectSmooth } from "./typewriter-effect";
 export function IndexTypeEffect() {
   const words = [
     {
-      text: "Build",
+      text: "Hello !",
+      className: "text-yellow-500 dark:text-yello-500 break-normal",
     },
     {
       text: "awesome",
@@ -22,7 +23,7 @@ export function IndexTypeEffect() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]  ">    
+    <div className="flex flex-col items-center justify-center  ">    
       <TypewriterEffectSmooth words={words} />
     </div>
   );
