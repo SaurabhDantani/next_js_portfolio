@@ -1,4 +1,3 @@
 # next_js_portfolio
 
-
-dsd
+this is demo
