@@ -44,7 +44,7 @@ export function IndexTypeEffect() {
   },[])
   return (
     <div className="flex flex-col items-center justify-center  ">    
-      <TypewriterEffectSmooth words={words2} />
+      <TypewriterEffectSmooth words={words2} className="mb-0" />
       {delay?(
         <TypewriterEffectSmooth words={words} />
       ):(        
