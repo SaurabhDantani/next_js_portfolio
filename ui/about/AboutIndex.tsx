@@ -3,15 +3,30 @@ import React from "react";
 
 import Image from "next/image";
 import { StickyScroll } from "./AboutComponent";
+import saurabh from '../../public/saurabh.jpeg'
 
 const content = [
   {
-    title: "Collaborative Editing",
-    description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+    title: "About me",
+    description: (
+      <div>
+        <p className="break-normal mb-2">Greetings! I`m Saurabh Dantani,</p>
+        <p className="justify-normal">
+          fervent Full Stack Developer dedicated to crafting robust and innovative solutions. 
+          With a deep expertise in a spectrum of full stack technologies including Node.js, React.js,Postgresql,MongoDB,
+          I thrive on turning ideas into exceptional, scalable software.             
+        </p>
+        <p className="text-lg m-2 text-yellow-500">My mission?</p>
+        <p>To not just meet, but exceed expectations, delivering unparalleled value with every project.</p>
+        <p className="text-lg mt-2">Let`s collaborate and bring your vision to life, one line of code at a time.</p>
+      </div>
+    ),
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+      <div className="h-full w-full p-20  bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        <Image src={saurabh} 
+        className="rounded-full overflow-hidden"
+        alt="not found"
+         />
       </div>
     ),
   },
@@ -22,7 +37,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src={saurabh}
           width={300}
           height={300}
           className="h-full w-full object-cover"

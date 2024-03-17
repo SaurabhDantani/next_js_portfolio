@@ -1,15 +1,15 @@
 "use client";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { StickyScrollRevealDemo } from "@/ui/about/AboutIndex";
-export default function About() {
-    const { ref } = useSectionInView("About", 0.5);
+import { HeroParallaxDemo } from "@/ui/projects/Project.Index";
+export default function Projects() {
+    const { ref } = useSectionInView("Projects", 0.5);
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
     return(
         <>
-        <section ref={ref} id="about">
+        <section ref={ref} id="projects">
             <h1>hello how are you</h1>
-        <StickyScrollRevealDemo />
+        <HeroParallaxDemo />
         </section>
     </>
     )
