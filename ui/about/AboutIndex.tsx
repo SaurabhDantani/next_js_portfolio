@@ -10,7 +10,7 @@ const content = [
     title: "About me",
     description: (
       <div>
-        <p className="break-normal mb-2">Greetings! I`m Saurabh Dantani,</p>
+        {/* <p className="break-normal mb-2">Greetings! I`m Saurabh Dantani,</p>
         <p className="justify-normal">
           fervent Full Stack Developer dedicated to crafting robust and innovative solutions. 
           With a deep expertise in a spectrum of full stack technologies including Node.js, React.js,Postgresql,MongoDB,
@@ -18,7 +18,7 @@ const content = [
         </p>
         <p className="text-lg m-2 text-yellow-500">My mission?</p>
         <p>To not just meet, but exceed expectations, delivering unparalleled value with every project.</p>
-        <p className="text-lg mt-2">Let`s collaborate and bring your vision to life, one line of code at a time.</p>
+        <p className="text-lg mt-2">Let`s collaborate and bring your vision to life, one line of code at a time.</p> */}
       </div>
     ),
     content: (

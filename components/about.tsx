@@ -5,12 +5,11 @@ import { StickyScrollRevealDemo } from "@/ui/about/AboutIndex";
 export default function About() {
     const { ref } = useSectionInView("About", 0.5);
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
-    return(
+    return (
         <>
-        <section ref={ref} id="about">
-            <h1>hello how are you</h1>
-        <StickyScrollRevealDemo />
-        </section>
-    </>
+            <section ref={ref} id="about">
+                <StickyScrollRevealDemo />
+            </section>
+        </>
     )
 }

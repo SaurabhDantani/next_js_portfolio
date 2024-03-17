@@ -5,12 +5,13 @@ import { HeroParallaxDemo } from "@/ui/projects/Project.Index";
 export default function Projects() {
     const { ref } = useSectionInView("Projects", 0.5);
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
-    return(
+    return (
         <>
-        <section ref={ref} id="projects">
-            <h1>hello how are you</h1>
-        <HeroParallaxDemo />
-        </section>
-    </>
+            <section ref={ref} id="projects">
+                <div className="w-96">
+                    <HeroParallaxDemo />
+                </div>
+            </section>
+        </>
     )
 }
