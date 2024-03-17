@@ -4,7 +4,9 @@ import { HeroParallax } from "./Project.Componet";
 import saurabh from '../../public/saurabh.jpeg'
 
 export function HeroParallaxDemo() {
-  return <HeroParallax products={products} />;
+  return (
+    <HeroParallax products={products} />
+  ) ;
 }
 export const products = [
   {
@@ -12,19 +14,44 @@ export const products = [
     link: "https://gomoonbeam.com",
     thumbnail:saurabh,
   },
-  // {
-  //   title: "Cursor",
-  //   link: "https://cursor.so",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-  // },
-  // {
-  //   title: "Rogue",
-  //   link: "https://userogue.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  // },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+    saurabh,
+  },
+  {
+    title: "Rogue",
+    link: "https://userogue.com",
+    thumbnail:saurabh,
+  },
+  {
+    title: "Rogue",
+    link: "https://userogue.com",
+    thumbnail:saurabh,
+  },
 
+  {
+    title: "Moonbeam",
+    link: "https://gomoonbeam.com",
+    thumbnail:saurabh,
+  },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+    saurabh,
+  },
+  {
+    title: "Rogue",
+    link: "https://userogue.com",
+    thumbnail:saurabh,
+  },
+  {
+    title: "Rogue",
+    link: "https://userogue.com",
+    thumbnail:saurabh,
+  },
   // {
   //   title: "Editorially",
   //   link: "https://editorially.org",
