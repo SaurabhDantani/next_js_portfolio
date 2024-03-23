@@ -4,6 +4,7 @@ import Intro from "@/components/intro";
 import Projects from "@/components/project";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import { TabsDemo } from "@/ui/tabs/Tab.index";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <Projects />
     <Skills />
     <Contact />
+    <TabsDemo />
 
     {/*       
       <Experience />
