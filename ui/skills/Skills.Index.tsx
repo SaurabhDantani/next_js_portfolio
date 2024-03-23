@@ -2,7 +2,7 @@ import { HoverEffect } from "./Skills.Component";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8 mt-0">
       <HoverEffect items={projects} />
     </div>
   );
@@ -10,8 +10,12 @@ export function CardHoverEffectDemo() {
 export const projects = [
   {
     title: "Stripe",
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
+    description:(
+      <ul className="list-disc">
+        <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+      </ul>
+    ),
+      // "A technology company that builds economic infrastructure for the internet.",
     link: "https://stripe.com",
   },
   {

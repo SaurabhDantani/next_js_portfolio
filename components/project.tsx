@@ -6,7 +6,7 @@ export default function Projects() {
     const { ref } = useSectionInView("Projects", 0.5);
     return (
 
-        <div ref={ref} id="projects" className="w-3/4 content-center justify-self-center">
+        <div ref={ref} id="projects" className="w-3/4 content-center justify-self-center -mb-52">
             <HeroParallaxDemo />
         </div>
 
